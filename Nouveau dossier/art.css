@@ -1,0 +1,104 @@
+.wrapper {
+	
+	margin: 0 auto;
+	text-align:center; 
+}
+
+}
+main {
+height: 310%;
+width: 100%,
+
+
+
+}
+header 	{
+background: url('sanzio.jpg');
+height: 180px;
+width: 100%;
+text-align: center;
+font-family: fantasy;
+font-weight: bold;
+font-size: 70px;
+padding-top: 48px;
+
+}
+.sidenav {
+	 height: 1120px;
+	width : 20%;
+	background-color: #7f8c8d;
+	float: left;
+	overflow: hidden;
+}
+content {
+height: 1100px;
+width: 80%;
+background-color:#f1f2f6 ;
+float: right;
+padding-top: 15px;
+
+
+}
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: #6D214F;
+	padding-top: 15px;
+	overflow: hidden;
+}
+.img {
+	
+	display: flex;
+	padding-top: 15px;
+	padding-left: 15px;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+	
+
+}
+
+
+
+
+.h1 {
+font-size: 15px;
+font-stretch: expanded;
+text-align: center;
+color:  #6D214F;
+
+
+
+}
+.ul {
+	float: left
+}
+.il {
+   display: flex;
+   flex-wrap: wrap-reverse;
+
+}
+
+.grid-container {
+  display: grid;
+  grid: 300px / auto auto auto;
+  grid-gap: 10px;
+  background-color: #833471;
+  padding: 30px;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+
+  padding: 10px 0;
+  font-size: 100px; } 
+@media only screen (min-width: 768px) {
+ .sidenav {
+	 height: 1120px;
+	width : 100%;
+	background-color: #7f8c8d;
+	
+
+
+}

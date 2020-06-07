@@ -1,0 +1,30 @@
+.header {
+	background-color: #574b90;
+	font-family: Times New Romans ;
+	font-size: 90px;
+	padding: 60px;
+	text-align:center;
+	text-overflow: ellipsis; 
+
+}
+.grid-container {
+  display: grid;
+  grid:  300px 300px 300px / 350px auto auto auto;
+  grid-gap: 5px;
+  background-color: #778beb;
+  padding: 10px;
+  
+  
+  
+}
+
+.grid-container > div {
+  background-color: rgba(200, 200, 200, 0.8);
+  text-align: center;
+
+  padding: 10px 0;
+  font-size: 20px; }
+  .img {
+  	height:200px;
+  	width: 300px;
+  }

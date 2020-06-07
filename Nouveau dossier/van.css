@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+	border :0;
+}
+
+header {
+   width: 100%;
+   height: 300px;
+   background : url("van.jpg") no-repeat ;
+  background-position: center; 
+  background-size: cover;
+}
+.container {
+	 position: relative;
+}
+.sidenav1 {
+	float: left;
+	width: 50%;
+	height:200vh;
+	
+}
+.posts {
+	margin-top: 20px;
+	position: absolute;
+	width: 80%;
+	height:2000vh;
+	background-color: white;
+	left : 150px;
+
+}
+.sidenav2 {
+	float: right;
+	width: 25%
+	height:100vh;
+	margin-right: 75vh;
+
+}
+footer {
+	 width: 100%;
+   height: 70px;
+   background-color: pink ;
+   margin-top: 2000vh;
+}
+.img {
+	width: 100%;
+	height: 550px;
+	margin-top: 10px;
+}

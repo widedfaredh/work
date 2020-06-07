@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	background: url("bak.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.wrapper {
+    padding: 0 20px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-left: 500px ;
+    max-width: 650px;
+    
+
+}
+.h1 {
+	color: purple;
+	text-align: center; 
+}
+.Join-form {
+
+	
+
+	border-radius: 20px;
+	background-color: rgba(0,0,0);
+	padding: 20px;
+	display: flex;
+	 
+}
+.input-fields {
+     display: flex;
+     flex-direction:column;
+     margin-right: 5%; 
+
+}

@@ -1,0 +1,65 @@
+*{
+}
+
+header {
+
+ padding:20px ;
+ background: #f8c291 ;
+ background: url("histoire.jpg");
+ text-align: center;
+letter-spacing:4px; 
+font-size: 80px;
+padding-top: 20px;
+text-shadow: 2px 2px;
+font-family: 'Cairo';
+}
+
+}	
+
+	
+
+
+}
+.grid-container {
+  display: grid;
+  grid-row:  300px / auto auto auto;
+  grid-gap: 1px;
+  
+  
+  
+  
+}
+
+.grid-container > div {
+  background-color: rgba(200, 200, 200, 0.8);
+  text-align: center;
+
+  padding: 10px 0;
+  font-size: 20px; }
+.button {
+  display: block;
+	border-radius: 50%;
+	color: white ;
+	background-color: purple; 
+	padding:  25px 14px;
+	font-size: 27px;
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	margin-right: 5px ;
+    margin-left: auto;
+    cursor: pointer; 
+    box-shadow: 0 10px #999;
+    display: inline-block;
+    float: right;
+} 
+ 
+ 
+ 
+
+
+
+
+
+
+ 
